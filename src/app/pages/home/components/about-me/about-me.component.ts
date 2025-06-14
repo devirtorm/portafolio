@@ -1,10 +1,9 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'badge',
+  selector: 'about-me',
   imports: [],
-  templateUrl: './badge.component.html',
-  styleUrls: ['./badge.component.css'],
+  templateUrl: './about-me.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class BadgeComponent { }
+export class AboutMeComponent { }
